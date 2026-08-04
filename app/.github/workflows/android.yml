@@ -2,61 +2,36 @@ name: Build Android APK
 
 on:
   push:
-    branches: [ "main" ]   # main ব্রাঞ্চে পুশ করলেই বিল্ড ট্রিগার হবে
+    branches: [ "main", "master" ]
   pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:       # ম্যানুয়ালি রান করার অপশন
+    branches: [ "main", "master" ]
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
-        distribution: 'temurin'
         java-version: '17'
+        distribution: 'temurin'
+        cache: 'gradle'
 
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v3
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
 
-    - name: Decode Keystore
-      run: |
-        echo "${{ secrets.ANDROID_KEYSTORE }}" | base64 -d > app/keystore.jks
-        # যদি আপনার app/ ফোল্ডার না থাকে, তাহলে পাথ ঠিক করে দিন (যেমন: android/app/)
-
-    - name: Build APK with Gradle
-      run: |
-        chmod +x gradlew
-        ./gradlew assembleRelease --no-daemon
-
-    - name: Sign APK
-      run: |
-        # প্রথমে রিলিজ APK এর লোকেশন খুঁজে বের করুন
-        APK_PATH=$(find app/build/outputs/apk/release -type f -name "*.apk" | head -n 1)
-        if [[ -z "$APK_PATH" ]]; then
-          echo "APK file not found!"
-          exit 1
-        fi
-        # jarsigner দিয়ে সাইন করুন
-        jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 \
-          -keystore app/keystore.jks \
-          -storepass "${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" \
-          -keypass "${{ secrets.ANDROID_KEY_PASSWORD }}" \
-          "$APK_PATH" "${{ secrets.ANDROID_KEY_ALIAS }}"
-
-    - name: Rename Signed APK
-      run: |
-        UNSIGNED_APK=$(find app/build/outputs/apk/release -type f -name "*.apk" | head -n 1)
-        mv "$UNSIGNED_APK" "app/build/outputs/apk/release/app-release-signed.apk"
+    - name: Build Debug APK
+      run: ./gradlew assembleDebug --stacktrace
 
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: signed-apk
-        path: app/build/outputs/apk/release/app-release-signed.apk
-        retention-days: 7
+        name: app-debug
+        path: |
+          app/build/outputs/apk/debug/*.apk
+          build/outputs/apk/debug/*.apk
