@@ -32,7 +32,9 @@ android {
       keyPassword = System.getenv("KEY_PASSWORD")
     }
     create("debugConfig") {
-      storeFile = file("${rootDir}/debug.keystore")
+      // আগে: file("${rootDir}/debug.keystore") - এই ফাইল CI তে নেই
+      // এখন: অ্যান্ড্রয়েডের ডিফল্ট ডিবাগ কীস্টোর ব্যবহার করবে
+      storeFile = file(System.getProperty("user.home") + "/.android/debug.keystore")
       storePassword = "android"
       keyAlias = "androiddebugkey"
       keyPassword = "android"
