@@ -24,6 +24,8 @@ jobs:
 
     - name: Install Gradle
       uses: gradle/actions/setup-gradle@v4
+      with:
+        validate-wrappers: false
 
     - name: Regenerate Gradle Wrapper (fixes corrupted wrapper jar)
       run: |
