@@ -27,7 +27,7 @@ jobs:
       with:
         validate-wrappers: false
 
-    - name: Regenerate Gradle Wrapper (fixes corrupted wrapper jar)
+    - name: Regenerate Gradle Wrapper
       run: |
         GRADLE_VERSION=$(grep -oP '(?<=gradle-)[0-9.]+(?=-(bin|all)\.zip)' gradle/wrapper/gradle-wrapper.properties)
         echo "Using Gradle version: $GRADLE_VERSION"
@@ -56,3 +56,15 @@ jobs:
       with:
         name: app-debug
         path: app/build/outputs/apk/debug/*.apk
+
+    - name: Upload APK to Release
+      uses: softprops/action-gh-release@v2
+      if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+      with:
+        files: app/build/outputs/apk/debug/*.apk
+        tag_name: v1.0.${{ github.run_number }}
+        name: Release v1.0.${{ github.run_number }}
+        draft: false
+        prerelease: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
