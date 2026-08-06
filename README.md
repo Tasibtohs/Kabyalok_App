@@ -80,36 +80,6 @@
 | **Build** | Gradle 8.11.1 |
 
 
-## 🚀 ইনস্টলেশন ও রান (Installation & Run)
-
-### পূর্বশর্ত (Prerequisites)
-- Android Studio Ladybug বা তার পরবর্তী সংস্করণ
-- JDK 17+
-- Android SDK (API 24 - 35)
-- Gradle 8.11.1
-
-### ধাপসমূহ (Steps)
-```bash
-# 1. প্রজেক্ট ক্লোন করুন
-git clone https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3.git
-
-# 2. Android Studio তে প্রজেক্ট ওপেন করুন
-# File > Open > প্রজেক্ট লোকেশন নির্বাচন করুন
-
-# 3. Gradle Sync করুন
-# File > Sync Project with Gradle Files
-
-# 4. ডিবাগ ভার্সন বিল্ড করুন
-./gradlew assembleDebug
-
-# 5. রিলিজ ভার্সন বিল্ড করুন
-./gradlew assembleRelease
-
-# 6. অ্যাপ ইনস্টল করুন
-adb install app/build/outputs/apk/debug/app-debug.apk
-```
-
-
 ## 📄 লাইসেন্স (License)
 
 ```
