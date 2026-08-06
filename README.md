@@ -100,13 +100,6 @@ For licensing inquiries, please contact: hmibrahimtoha@gmail.com
   <a href="https://www.facebook.com/hmibrahimsarkar"><img src="https://img.shields.io/badge/Facebook-hmibrahimsarkar-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
 </p>
 
-## 🙏 কৃতজ্ঞতা (Acknowledgments)
-- **সবুজ নলুয়া ফন্ট**: প্রসেনজিৎ মণ্ডল
-- **আলিনুর ফন্ট পরিবার**: আলিনুর রহমান
-- **বনলতা ফন্ট**: মাহফুজ এ. কে.
-- **বাংলা টাইপোগ্রাফি কমিউনিটি**: বাংলা ফন্ট ডেভেলপমেন্টের জন্য
-- **অ্যান্ড্রয়েড ডেভেলপার কমিউনিটি**: Jetpack Compose ও Material Design 3-এর জন্য
-
 ## 📞 যোগাযোগ (Contact)
 
 - 📧 **Email**: hmibrahimtoha@gmail.com
