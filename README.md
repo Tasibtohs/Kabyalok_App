@@ -57,7 +57,9 @@
   </a>
 </p>
 
-👉 [সকল Release](https://github.com/Tasibtohs/Kabyalok_App/releases) | [সরাসরি APK](https://github.com/Tasibtohs/Kabyalok_App/releases/latest)
+👉 [সকল Release](https://github.com/Tasibtohs/Kabyalok_App/releases)  
+
+👉 [সরাসরি APK](https://github.com/Tasibtohs/Kabyalok_App/releases/latest)
 
 ### ইন্সটলেশন:
 1. APK ফাইল ডাউনলোড করুন
