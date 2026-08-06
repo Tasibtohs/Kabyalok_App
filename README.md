@@ -414,7 +414,7 @@ Copyright © 2026 HM Ibrahim Sarkar. All rights reserved.
 
 এই অ্যাপ্লিকেশনটির সমস্ত অধিকার সংরক্ষিত। অনুমতি ছাড়া এই অ্যাপ্লিকেশন বা এর কোনো অংশ কপি, পরিবর্তন, বিতরণ, বা পুনঃপ্রকাশ করা যাবে না।
 
-For licensing inquiries, please contact: hmibrahimsarkar@gmail.com
+For licensing inquiries, please contact: hmibrahimtoha@gmail.com
 ```
 
 ## 👨‍💻 ডেভেলপার (Developer)
@@ -422,7 +422,7 @@ For licensing inquiries, please contact: hmibrahimsarkar@gmail.com
 ### HM Ibrahim Sarkar
 <p align="center">
   <a href="https://github.com/Tasibtohs"><img src="https://img.shields.io/badge/GitHub-Tasibtohs-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="mailto:hmibrahimsarkar@gmail.com"><img src="https://img.shields.io/badge/Email-hmibrahimsarkar%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:hmibrahimtoha@gmail.com"><img src="https://img.shields.io/badge/Email-hmibrahimsarkar%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://www.facebook.com/hmibrahimsarkar"><img src="https://img.shields.io/badge/Facebook-hmibrahimsarkar-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
 </p>
 
@@ -435,14 +435,14 @@ For licensing inquiries, please contact: hmibrahimsarkar@gmail.com
 
 ## 📞 যোগাযোগ (Contact)
 
-- 📧 **Email**: hmibrahimsarkar@gmail.com
-- 🐛 **Bug Report**: [GitHub Issues](https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3/issues)
-- 💡 **Feature Request**: [GitHub Discussions](https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3/discussions)
+- 📧 **Email**: hmibrahimtoha@gmail.com
+- 🐛 **Bug Report**: [GitHub Issues](https://github.com/Tasibtohs/Kabyalok_App/issues)
+- 💡 **Feature Request**: [GitHub Discussions](https://github.com/Tasibtohs/Kabyalok_App/discussions)
 
 ## ⭐ সাপোর্ট (Support)
 
 <p align="center">
-  <a href="https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3"><img src="https://img.shields.io/github/stars/Tasibtohs/kabboloker-brakkhakbi_V1.0.3?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/Tasibtohs/Kabyalok_App"><img src="https://img.shields.io/github/stars/Tasibtohs/Kabyalok_App?style=social" alt="GitHub stars"/></a>
 </p>
 
 <p align="center">
@@ -455,13 +455,10 @@ For licensing inquiries, please contact: hmibrahimsarkar@gmail.com
 
 | সংস্করণ | তারিখ | পরিবর্তনসমূহ |
 |---------|-------|--------------|
-| v1.0.3 | ২০২৬-০১-১৫ | বাগ ফিক্স, পারফরম্যান্স ইমপ্রুভমেন্ট |
-| v1.0.2 | ২০২৬-০১-১০ | নতুন ফন্ট যোগ, UI ইমপ্রুভমেন্ট |
-| v1.0.1 | ২০২৬-০১-০৫ | পিডিএফ এক্সপোর্ট ফিক্স |
 | v1.0.0 | ২০২৬-০১-০১ | প্রথম রিলিজ |
 
 ## 🔗 লিংকসমূহ (Links)
-- [GitHub Repository](https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3)
-- [Releases](https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3/releases)
-- [Issues](https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3/issues)
-- [Discussions](https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3/discussions)
+- [GitHub Repository](https://github.com/Tasibtohs/Kabyalok_App)
+- [Releases](https://github.com/Tasibtohs/Kabyalok_App/releases)
+- [Issues](https://github.com/Tasibtohs/Kabyalok_App/issues)
+- [Discussions](https://github.com/Tasibtohs/Kabyalok_App/discussions)
