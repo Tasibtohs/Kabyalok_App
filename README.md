@@ -52,12 +52,12 @@
 ## 📥 ডাউনলোড (Download)
 
 <p align="center">
-  <a href="https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3/releases/latest">
+  <a href="https://github.com/Tasibtohs/Kabyalok_App/releases/latest">
     <img src="https://img.shields.io/badge/⬇️%20Download%20Latest%20APK-blue?style=for-the-badge&logo=android" alt="Download APK"/>
   </a>
 </p>
 
-👉 [সকল Release](https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3/releases) | [সরাসরি APK](https://github.com/Tasibtohs/kabboloker-brakkhakbi_V1.0.3/releases/latest)
+👉 [সকল Release](https://github.com/Tasibtohs/Kabyalok_App/releases) | [সরাসরি APK](https://github.com/Tasibtohs/Kabyalok_App/releases/latest)
 
 ### ইন্সটলেশন:
 1. APK ফাইল ডাউনলোড করুন
