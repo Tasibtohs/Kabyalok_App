@@ -1,7 +1,7 @@
 # কাব্যলোকের ব্রক্ষকবি (Kabboloker Brakkhakbi)
 
 <p align="center">
-  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" alt="App Icon" width="120"/>
+  <img src="app/src/main/res/drawable/poetry_app_logo_1785492330798.jpg" alt="App Icon" width="120"/>
 </p>
 
 <p align="center">
